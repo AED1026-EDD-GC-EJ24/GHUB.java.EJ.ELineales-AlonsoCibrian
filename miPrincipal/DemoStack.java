@@ -18,5 +18,8 @@ public class DemoStack {
         System.out.println("El tope de la pila es: " + pila.peek());
         pila.pop();
         System.out.println("El tope de la pila es: " + pila.peek());
+
+        //invocar a la clase demostack
+      
     }
 }
