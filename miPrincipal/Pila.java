@@ -36,4 +36,21 @@ public class Pila<T> {
         }
        tamanio++;
     }
+    //Desapilar o eliminar un elemento de la pila
+    public void retirar(){
+        if(!esVacia()){
+            //la cabeza de la pila pasa a ser el siguiente nodo
+            cabeza = cabeza.getSiguiente();
+            tamanio--;
+        }
+    }
+    //Devuelve el elemento almacenado en el TOPE de la pila
+    public T cima(){
+        if(!esVacia()){
+            //devuelve el valor almacenado en la cabeza de la pila
+            return cabeza.getValor();
+        }
+        return null;
+    }
+    
 }
