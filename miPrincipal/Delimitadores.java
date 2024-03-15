@@ -1,16 +1,17 @@
 package miPrincipal;
 
 public class Delimitadores {
-    public boolean evaluacionDelimitadores(String cadena) {
+    public boolean evaluacionDelimitadores(String cadena){
         Pila<String> pcaracteres = new Pila<String>();
         int i = 0;
         boolean masElementosPorLeer = true;
-        while (i < cadena.length() && masElementosPorLeer) {
-            char caracter = cadena.charAt(i);
-            String s = charToString(caracter);
+        while(i<cadena.length() && masElementosPorLeer)
+        {
+            char car = cadena.charAt(i);
+            String s = charToString(car);
             i++;
-            switch (caracter) {
-                // en caso de apilar
+            switch (car) {
+                //en caso de apilar
                 case '(':
                     pcaracteres.apilar(charToString(')'));
                     break;
@@ -21,29 +22,36 @@ public class Delimitadores {
                     pcaracteres.apilar(charToString('}'));
                     break;
                 case '/':
-                    if (siguienteEsAsterico(cadena, i)) {
+                    if (siguienteEsAsterisco(cadena, i)){
                         pcaracteres.apilar(charToString('/'));
                         i++;
                     }
                     break;
-                // en caso de desapilar
+                
+                //para desapilar
                 case ')':
                 case ']':
-                case '}': {
-                    // comparar que corresponda
+                case '}':
+                {
+                    //comparar que corresponda
                     String aux = pcaracteres.cima();
-                    if (aux != null) {
-                        if (s.compareTo(aux) == 0) {
-                            // hay correspondencia por lo tanto son iguales y lo elimino
+                    if (aux !=null)
+                    {
+                        if(s.compareTo(aux)==0)
+                        {
+                            //hay correspondencia por tanto son iguales y lo elimino
                             pcaracteres.retirar();
-                        } else {
-                            masElementosPorLeer = false;
+                        }
+                        else{
+                            masElementosPorLeer=false;
                         }
                     }
-
+                    ///Faltaba esta linea en el versión incial
+                     break;
                 }
-                case '*': {
-                    if (siguienteEsDiagonal(cadena, i)) {
+                case '*':
+                {
+                    if(siguienteEsDiagonal(cadena,i)){
                         pcaracteres.retirar();
                         i++;
                     }
@@ -52,31 +60,30 @@ public class Delimitadores {
                 default:
                     break;
             }
+
         }//termina el while
-        if (pcaracteres.esVacia() && masElementosPorLeer) {
-            return true;
-        } else {
-            return false;
-        }   
+        if(pcaracteres.esVacia() && masElementosPorLeer)
+           return true;
+        else
+           return false;
+    }
+    //convierte un char a un objeto tipo String
+    private static String charToString(char ch){
+        return String.valueOf(ch);
+    }
+    private static boolean siguienteEsAsterisco(String cadena,int posicion){
+        char car = cadena.charAt(posicion);
+        if(car == '*')
+           return true;
+        else
+           return false;
+    }
+    private static boolean siguienteEsDiagonal(String cadena,int posicion){
+        char car = cadena.charAt(posicion);
+        if(car == '/')
+           return true;
+        else
+           return false;
     }
 
-    private static String charToString(char caracter) {
-        return String.valueOf(caracter);
-    }
-
-    private static boolean siguienteEsAsterico(String cadena, int pos) {
-        char car = cadena.charAt(pos);
-        if (car == '*') {
-            return true;
-        } else
-            return false;
-    }
-
-    private static boolean siguienteEsDiagonal(String cadena, int pos) {
-        char car = cadena.charAt(pos);
-        if (car == '/') {
-            return true;
-        } else
-            return false;
-    }
 }

@@ -14,26 +14,35 @@ public class Principal {
             System.out.println("======================");
             System.out.println("1. Pila");
             System.out.println("2. Stack");
-            System.out.println("0. Salir");
+            System.out.println("3. Delimitadores");
+
             System.out.println();
-            
-            System.out.println("Ingrese una opcion: ");
+
+            System.out.println("0) Salir");
+            System.out.print("Selecciona opción:");
             opcion = rd.nextInt();
-            
             switch (opcion) {
                 case 1:
                     DemoPila.menu();
                     break;
+
                 case 2:
                     DemoStack.menu();
                     break;
+                case 3:
+                   DemoDelimitador.menu();
+                   break;
                 case 0:
-                    System.out.println("BYE BYE!");
+                    System.out.println("ADIOS!");
+                    rd.close();
                     break;
                 default:
-                    System.out.println("Opcion no valida");
+                    System.out.println("Valor incorrecto, intente de nuevo");
                     break;
             }
-        } while (opcion != 0);
+
+        }while (opcion !=0);
+
+        
     }
 }
