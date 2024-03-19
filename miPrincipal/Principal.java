@@ -7,7 +7,7 @@ public class Principal {
         int opcion;
         do {
             Scanner rd = new Scanner(System.in);
-            
+                
             // hacer un menu
             System.out.println("======================");
             System.out.println("Estructuras lineales");
@@ -15,7 +15,8 @@ public class Principal {
             System.out.println("1. Pila");
             System.out.println("2. Stack");
             System.out.println("3. Delimitadores");
-
+            System.out.println("4. Expresión infija a posfija");
+            System.out.println("5. Cola");
             System.out.println();
 
             System.out.println("0) Salir");
@@ -32,6 +33,12 @@ public class Principal {
                 case 3:
                    DemoDelimitador.menu();
                    break;
+                case 4:
+                    DemoExpresion.menu();
+                    break;
+                case 5:
+                    DemoCola.menu();
+                    break;
                 case 0:
                     System.out.println("ADIOS!");
                     rd.close();
