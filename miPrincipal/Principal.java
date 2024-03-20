@@ -34,7 +34,7 @@ public class Principal {
                    DemoDelimitador.menu();
                    break;
                 case 4:
-                    DemoExpresion.menu();
+                   // DemoExpresion.menu();
                     break;
                 case 5:
                     DemoCola.menu();
