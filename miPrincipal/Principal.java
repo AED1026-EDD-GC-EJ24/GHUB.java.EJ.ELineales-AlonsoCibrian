@@ -17,6 +17,7 @@ public class Principal {
             System.out.println("3. Delimitadores");
             System.out.println("4. Expresión infija a posfija");
             System.out.println("5. Cola");
+            System.out.println("6. DemoQueue");
             System.out.println();
 
             System.out.println("0) Salir");
@@ -38,6 +39,9 @@ public class Principal {
                     break;
                 case 5:
                     DemoCola.menu();
+                    break;
+                case 6:
+                    DemoQueue.menu();
                     break;
                 case 0:
                     System.out.println("ADIOS!");
