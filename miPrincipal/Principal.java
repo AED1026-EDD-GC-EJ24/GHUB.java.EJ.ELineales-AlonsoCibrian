@@ -18,6 +18,8 @@ public class Principal {
             System.out.println("4. Expresión infija a posfija");
             System.out.println("5. Cola");
             System.out.println("6. DemoQueue");
+            System.out.println("7. Tablas de Dispersión");
+            System.out.println("8: Estructura Combinada");
             System.out.println();
 
             System.out.println("0) Salir");
@@ -42,6 +44,12 @@ public class Principal {
                     break;
                 case 6:
                     DemoQueue.menu();
+                    break;
+                case 7:
+                    DemoTablaDispersion.menu();
+                    break;
+                case 8:
+                    DemoEstructuraCombinada.menu();
                     break;
                 case 0:
                     System.out.println("ADIOS!");

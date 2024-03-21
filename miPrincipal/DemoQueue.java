@@ -19,7 +19,7 @@ public class DemoQueue {
         System.out.println("=================================");
         System.out.println();
 
-        Queue micola = new LinkedList<>();
+        Queue <String> micola = new LinkedList<String>();
         micola.add("ELEMENTO 1");
         micola.add("ELEMENTO 2");
         micola.add("ELEMENTO 3");
