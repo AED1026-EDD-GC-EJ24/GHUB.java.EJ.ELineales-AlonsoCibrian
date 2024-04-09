@@ -1,6 +1,7 @@
 ./miTest/AppTest.java
 ./miPrincipal/Pila.java
 ./miPrincipal/Delimitadores.java
+./miPrincipal/HashTable2.java
 ./miPrincipal/Nodo.java
 ./miPrincipal/Principal.java
 ./miPrincipal/DemoStack.java
@@ -11,3 +12,4 @@
 ./miPrincipal/Cola.java
 ./miPrincipal/DemoCola.java
 ./miPrincipal/DemoTablaDispersion.java
+./miPrincipal/DemoEstructuraCombinada.java
