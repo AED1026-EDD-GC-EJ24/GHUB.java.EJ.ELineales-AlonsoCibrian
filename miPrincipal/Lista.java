@@ -30,5 +30,6 @@ public class Lista<T> {
             }
             aux.setSiguiente(nuevo);
         }
+        tamanio++;
     } 
 }
