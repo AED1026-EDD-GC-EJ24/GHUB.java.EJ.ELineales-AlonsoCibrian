@@ -20,6 +20,11 @@ public class Principal {
             System.out.println("6. DemoQueue");
             System.out.println("7. Tablas de Dispersión");
             System.out.println("8: Estructura Combinada");
+            System.out.println("9: Lista simplemente enlazada");
+            System.out.println("10: Lista doblemente enlazada");
+            System.out.println("11: Lista circular");
+            System.out.println("12: Lista doblemente circular");
+
             System.out.println();
 
             System.out.println("0) Salir");
@@ -51,6 +56,19 @@ public class Principal {
                 case 8:
                     DemoEstructuraCombinada.menu();
                     break;
+                case 9:
+                    DemoListaSimple.menu();
+                    break;
+                case 10:
+                    DemoListaDoble.menu();
+                    break;
+                case 11:
+                    DemoListaCircular.menu();
+                    break;
+                case 12:
+                    DemoListaDobleCircular.menu();
+                    break;
+                    
                 case 0:
                     System.out.println("ADIOS!");
                     rd.close();
