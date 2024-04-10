@@ -12,4 +12,5 @@
 ./miPrincipal/Cola.java
 ./miPrincipal/DemoCola.java
 ./miPrincipal/DemoTablaDispersion.java
+./miPrincipal/miPrincipal/TestVector.java
 ./miPrincipal/DemoEstructuraCombinada.java
