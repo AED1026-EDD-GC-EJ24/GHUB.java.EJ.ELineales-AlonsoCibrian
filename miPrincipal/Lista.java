@@ -86,6 +86,7 @@ public class Lista<T> {
             throw new PosicionIlegalException();
         }
     }
+
     public void remover(int pos) throws PosicionIlegalException{
         if (pos >= 0 && pos < tamanio) {
             if (pos == 0) {
@@ -105,5 +106,10 @@ public class Lista<T> {
         else{
             throw new PosicionIlegalException();
         }
+    }
+    //eliminar todos los elementos de la lista
+    public void limpiar(){
+        cabeza = null;
+        tamanio = 0;
     }
 }
