@@ -3,7 +3,7 @@ package miPrincipal;
 import java.util.Scanner;
 
 public class Principal {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws PosicionIlegalException {
         int opcion;
         do {
             Scanner rd = new Scanner(System.in);
@@ -60,13 +60,13 @@ public class Principal {
                     DemoListaSimple.menu();
                     break;
                 case 10:
-                    DemoListaDoble.menu();
+                   // DemoListaDoble.menu();
                     break;
                 case 11:
-                    DemoListaCircular.menu();
+                   //DemoListaCircular.menu();
                     break;
                 case 12:
-                    DemoListaDobleCircular.menu();
+                  //  DemoListaDobleCircular.menu();
                     break;
                     
                 case 0:
