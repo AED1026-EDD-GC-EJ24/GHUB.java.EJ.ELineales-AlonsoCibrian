@@ -21,7 +21,7 @@ public class Principal {
             System.out.println("7. Tablas de Dispersión");
             System.out.println("8: Estructura Combinada");
             System.out.println("9: Lista simplemente enlazada");
-            System.out.println("10: Lista doblemente enlazada");
+            System.out.println("10: LinkedList y ArrayList: ");
             System.out.println("11: Lista circular");
             System.out.println("12: Lista doblemente circular");
 
@@ -60,7 +60,7 @@ public class Principal {
                     DemoListaSimple.menu();
                     break;
                 case 10:
-                   // DemoListaDoble.menu();
+                    DemoLinkedListArrayList.menu();
                     break;
                 case 11:
                    //DemoListaCircular.menu();
