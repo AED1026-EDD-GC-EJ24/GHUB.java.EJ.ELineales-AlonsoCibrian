@@ -1,14 +1,17 @@
+./personas/Persona.java
 ./miTest/AppTest.java
 ./miPrincipal/Pila.java
 ./miPrincipal/Delimitadores.java
 ./miPrincipal/HashTable2.java
 ./miPrincipal/Nodo.java
+./miPrincipal/TestVector.java
 ./miPrincipal/Principal.java
 ./miPrincipal/DemoStack.java
 ./miPrincipal/DemoListaSimple.java
 ./miPrincipal/Persona.java
 ./miPrincipal/Lista.java
 ./miPrincipal/DemoPila.java
+./miPrincipal/DemoArrayListPersonas.java
 ./miPrincipal/DemoDelimitador.java
 ./miPrincipal/PosicionIlegalException.java
 ./miPrincipal/DemoQueue.java
@@ -16,6 +19,5 @@
 ./miPrincipal/Cola.java
 ./miPrincipal/DemoCola.java
 ./miPrincipal/DemoTablaDispersion.java
-./miPrincipal/miPrincipal/TestVector.java
-./miPrincipal/miPrincipal/UNombres.java
 ./miPrincipal/DemoEstructuraCombinada.java
+./miPrincipal/UNombres.java

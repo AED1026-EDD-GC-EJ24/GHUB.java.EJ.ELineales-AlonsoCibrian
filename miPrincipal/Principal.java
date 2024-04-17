@@ -22,8 +22,8 @@ public class Principal {
             System.out.println("8: Estructura Combinada");
             System.out.println("9: Lista simplemente enlazada");
             System.out.println("10: LinkedList y ArrayList: ");
-            System.out.println("11: Lista circular");
-            System.out.println("12: Lista doblemente circular");
+            System.out.println("11: Arraylisy de Personas");
+            System.out.println("12: LinkedList de Cuadrúpedos");
 
             System.out.println();
 
@@ -63,10 +63,10 @@ public class Principal {
                     DemoLinkedListArrayList.menu();
                     break;
                 case 11:
-                   //DemoListaCircular.menu();
+                   DemoArrayListPersonas.menu();
                     break;
                 case 12:
-                  //  DemoListaDobleCircular.menu();
+                  DemoLinkedListCuadrupedos.menu();
                     break;
                     
                 case 0:
