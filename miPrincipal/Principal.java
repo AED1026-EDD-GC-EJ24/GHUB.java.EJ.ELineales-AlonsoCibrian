@@ -2,6 +2,8 @@ package miPrincipal;
 
 import java.util.Scanner;
 
+import EjercicioContactos.DemoListaContactos;
+
 public class Principal {
     public static void main(String[] args) throws PosicionIlegalException {
         int opcion;
@@ -24,6 +26,7 @@ public class Principal {
             System.out.println("10: LinkedList y ArrayList: ");
             System.out.println("11: Arraylisy de Personas");
             System.out.println("12: LinkedList de Cuadrúpedos");
+            System.out.println("13: Lista de Contactos");
 
             System.out.println();
 
@@ -67,6 +70,9 @@ public class Principal {
                     break;
                 case 12:
                   DemoLinkedListCuadrupedos.menu();
+                    break;
+                case 13:
+                    DemoListaContactos.menu();
                     break;
                     
                 case 0:

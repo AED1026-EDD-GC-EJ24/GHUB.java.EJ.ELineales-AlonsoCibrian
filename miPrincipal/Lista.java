@@ -1,4 +1,5 @@
 package miPrincipal;
+
 public class Lista<T> {
     //primer elemento lista
     private Nodo<T> cabeza;

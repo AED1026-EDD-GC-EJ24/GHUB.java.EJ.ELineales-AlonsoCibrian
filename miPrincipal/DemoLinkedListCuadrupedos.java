@@ -45,7 +45,19 @@ public class DemoLinkedListCuadrupedos {
                     
                 }
             }
-
+            System.out.println("Resumen: ");
+            System.out.println("Perros: " + perroCount);
+            System.out.println("Gatos: " + gatoCount);
+            System.out.println("Leones: " + leonCount);
+            System.out.println("Elefantes: " + elefanteCount);  
+            
+            System.out.println("Muestra la lista de todos los cuadrupedos ");
+            cuadrupedo temp = null;
+            Iterator<cuadrupedo> it = cuadrupedos.iterator();
+            while (it.hasNext()) {
+                temp = it.next();
+                System.out.println(temp);
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }
