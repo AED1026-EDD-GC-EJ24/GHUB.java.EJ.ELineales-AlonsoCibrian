@@ -42,6 +42,7 @@ public class DemoLinkedListCuadrupedos {
                     case "Elefante":
                         elefanteCount++;
                         break;
+                    
                 }
             }
 
