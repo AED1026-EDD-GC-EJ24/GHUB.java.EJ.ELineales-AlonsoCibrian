@@ -1,5 +1,8 @@
 ./cuadrupedo/cuadrupedo.java
 ./personas/Persona.java
+./EjercicioContactos/ListaDeContactos.java
+./EjercicioContactos/Contacto.java
+./EjercicioContactos/DemoListaContactos.java
 ./miTest/AppTest.java
 ./miPrincipal/Pila.java
 ./miPrincipal/Delimitadores.java
