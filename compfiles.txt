@@ -3,7 +3,10 @@
 ./EjercicioContactos/ListaDeContactos.java
 ./EjercicioContactos/Contacto.java
 ./EjercicioContactos/DemoListaContactos.java
+./listaDobles/Nodo.java
+./listaDobles/ListaDoblementeEnlazada.java
 ./miTest/AppTest.java
+./miPrincipal/DemoListaDoble.java
 ./miPrincipal/Pila.java
 ./miPrincipal/Delimitadores.java
 ./miPrincipal/HashTable2.java
