@@ -24,8 +24,10 @@
 ./miPrincipal/PosicionIlegalException.java
 ./miPrincipal/DemoQueue.java
 ./miPrincipal/DemoLinkedListArrayList.java
+./miPrincipal/DemoListaCircular.java
 ./miPrincipal/Cola.java
 ./miPrincipal/DemoCola.java
 ./miPrincipal/DemoTablaDispersion.java
 ./miPrincipal/DemoEstructuraCombinada.java
 ./miPrincipal/UNombres.java
+./listaCircular/ListaCircular.java

@@ -106,6 +106,7 @@ public class ListaDoblementeEnlazada <T>{
                  }
                  Nodo<T> prox = aux.getSiguiente();
                  aux.setSiguiente(prox.getSiguiente());
+                 prox.setSiguiente(aux.getSiguiente());
                  tamanio--;
              }
          }
