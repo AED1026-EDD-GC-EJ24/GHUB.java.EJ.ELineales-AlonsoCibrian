@@ -1,4 +1,5 @@
 ./cuadrupedo/cuadrupedo.java
+./examen/doslistas.java
 ./personas/Persona.java
 ./EjercicioContactos/ListaDeContactos.java
 ./EjercicioContactos/Contacto.java
@@ -30,4 +31,4 @@
 ./miPrincipal/DemoTablaDispersion.java
 ./miPrincipal/DemoEstructuraCombinada.java
 ./miPrincipal/UNombres.java
-./listaCircular/ListaCircular.java
+./listaCircular/listaCircular.java

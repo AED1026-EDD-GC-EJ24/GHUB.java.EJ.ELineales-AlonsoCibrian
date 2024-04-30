@@ -1,5 +1,4 @@
 package listaDobles;
-
 import miPrincipal.PosicionIlegalException;
 
 public class ListaDoblementeEnlazada <T>{

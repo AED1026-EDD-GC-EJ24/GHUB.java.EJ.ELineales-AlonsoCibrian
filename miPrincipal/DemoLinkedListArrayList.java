@@ -1,5 +1,4 @@
 package miPrincipal;
-
 import java.util.*; // .Arraylist, .LinkedList, .List
 
 public class DemoLinkedListArrayList{

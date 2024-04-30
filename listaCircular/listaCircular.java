@@ -8,7 +8,7 @@ public class listaCircular <T> {
     //total elementos
     private int tamanio;
     //constructor
-    public ListaCircular() {
+    public listaCircular() {
         cabeza = null;
         tamanio = 0;
     }

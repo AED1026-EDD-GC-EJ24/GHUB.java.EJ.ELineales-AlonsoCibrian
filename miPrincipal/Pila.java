@@ -52,5 +52,23 @@ public class Pila<T> {
         }
         return null;
     }
+    //metodo buscar
+    /*
+     * se busca que regrese la posicion dentro de la pila
+     * si el objeto se encuentra, si no, en caso contrario regresar
+     * un -1 cuando no se encontro
+     */
+    public int buscar (T valor){
+        int posicion = 0;
+        Nodo<T> aux = cabeza;
+        while(aux != null){
+            if(aux.getValor().equals(valor)){
+                return posicion;
+            }
+            posicion++;
+            aux = aux.getSiguiente();
+        }
+        return -1;
+    }
     
 }

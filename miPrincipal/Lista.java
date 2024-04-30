@@ -20,6 +20,12 @@ public class Lista<T> {
         else 
             return false;
     }
+    public Nodo<T> getCabeza() {
+        return cabeza;
+    }
+    public void setCabeza(Nodo<T> cabeza) {
+        this.cabeza = cabeza;
+    }
     public void agregar(T valor){
         Nodo<T> nuevo = new Nodo<T>();
         nuevo.setValor(valor);

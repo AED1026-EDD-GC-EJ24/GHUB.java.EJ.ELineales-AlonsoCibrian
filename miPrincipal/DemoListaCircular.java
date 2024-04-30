@@ -2,7 +2,7 @@ package miPrincipal;
 import listaCircular.listaCircular;
 
 public class DemoListaCircular {
-    public static void menu() {
+    public static void menu() throws PosicionIlegalException {
         System.out.println("***********************");
         System.out.println("   Demo Lista Circular  ");
         System.out.println("***********************");

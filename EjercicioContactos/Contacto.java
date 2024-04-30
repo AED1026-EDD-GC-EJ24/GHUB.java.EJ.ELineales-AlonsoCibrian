@@ -1,7 +1,5 @@
 package EjercicioContactos;
 import miPrincipal.*;
-
-
 public class Contacto {
 	//Atributos
 	private String nombres;
@@ -21,10 +19,8 @@ public class Contacto {
 		this.direccion=direccion;
 		this.correo = correo;
 		this.telefono = telefono;
-		this.celular = celular;
-		
+		this.celular = celular;	
 	}
-
 	public String getNombres() {
 		return nombres;
 	}
@@ -76,7 +72,5 @@ public class Contacto {
 		return nombres+" "+apellidos+", "+direccion+", "+correo+
 	         ", "+telefono+", "+celular + "\n";
 	}
-	
-
 }
 
